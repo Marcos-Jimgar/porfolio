@@ -2,6 +2,8 @@
 
 Desarrollador Web y Android con más de 4 años de experiencia en la creación de aplicaciones robustas y escalables. Especializado en el ecosistema de Angular para la web y Android Studio para aplicaciones móviles.
 
+## Web en Produccion
+[Vercel App](https://marcos-jimgar-dev.vercel.app)
 
 Logros destacados:
 - Más de 7 aplicaciones publicadas en Google Play Store.

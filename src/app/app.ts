@@ -4,6 +4,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { Header } from './component/header/header';
 import { Footer } from './component/footer/footer';
 import { Head } from './component/head/head';
+import data from '../../public/proyectos.json';
 
 //Declarar Aqui los components en uso global
 @Component({
@@ -14,4 +15,5 @@ import { Head } from './component/head/head';
 })
 export class App {
   protected readonly title = signal('Marcos Jimenez Garcia - Portfolio');
+  protected readonly proyectos = signal(data);
 }

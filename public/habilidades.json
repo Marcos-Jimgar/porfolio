@@ -1,0 +1,42 @@
+[
+  {
+    "name": "HTML + CSS",
+    "icon": "fab fa-html5",
+    "color": "text-danger"
+  },
+  {
+    "name": "JavaScript",
+    "icon": "fab fa-js",
+    "color": "text-warning"
+  },
+  {
+    "name": "Angular",
+    "icon": "fab fa-angular",
+    "color": "text-danger"
+  },
+  {
+    "name": "Java",
+    "icon": "fab fa-java",
+    "color": "text-primary"
+  },
+  {
+    "name": "Spring Boot",
+    "icon": "fas fa-leaf",
+    "color": "text-success"
+  },
+  {
+    "name": "Python",
+    "icon": "fab fa-python",
+    "color": "text-primary"
+  },
+  {
+    "name": "PHP",
+    "icon": "fab fa-php",
+    "color": "text-info"
+  },
+  {
+    "name": "Android Studio",
+    "icon": "fab fa-android",
+    "color": "text-success"
+  }
+]

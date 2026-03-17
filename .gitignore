@@ -1,0 +1,29 @@
+# Archivos de compilación y dependencias
+/dist/
+/node_modules/
+/tmp/
+
+# Archivos de caché y logs
+.angular/
+.npm/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos del editor y del sistema operativo
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración local (si los hubiera)
+/src/environments/environment.local.ts
+
+# Archivos de test y cobertura
+/coverage/
+*.log

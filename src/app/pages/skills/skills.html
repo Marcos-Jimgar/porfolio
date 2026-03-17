@@ -1,11 +1,13 @@
-<section id="habilidades" class="py-5">
-  <div class="container text-center">
-    <h2 class="display-5 fw-bold mb-5">Habilidades Técnicas</h2>
+<section id="skills" class="py-5">
+  <div class="container">
+    <h2 class="display-5 fw-bold mb-5 text-center">Habilidades Técnicas</h2>
     <div class="row g-4 justify-content-center">
-      <div *ngFor="let habilidad of habilidades()" class="col-6 col-md-3 col-lg-2">
-        <div class="card h-100 border-0 shadow-sm p-3">
-          <i [class]="habilidad.icon + ' fa-3x mb-3 ' + habilidad.color"></i>
-          <h6 class="mb-0">{{ habilidad.name }}</h6>
+      <div *ngFor="let habilidad of habilidades()" class="col-6 col-sm-4 col-md-3">
+        <div class="card h-100 border-0 shadow-sm text-center p-4 skill-card">
+          <div class="mb-3">
+            <i [class]="habilidad.icon + ' fa-3x ' + habilidad.color"></i>
+          </div>
+          <h5 class="fw-bold mb-0">{{ habilidad.name }}</h5>
         </div>
       </div>
     </div>

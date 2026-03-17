@@ -6,7 +6,7 @@ import { Footer } from './component/footer/footer';
 import { Head } from './component/head/head';
 import data from '../../public/proyectos.json';
 
-//Declarar Aqui los components en uso global
+
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet, Header, Footer, Head, NgbModule],

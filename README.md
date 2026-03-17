@@ -3,7 +3,6 @@
 Desarrollador Web y Android con más de 4 años de experiencia en la creación de aplicaciones robustas y escalables. Especializado en el ecosistema de Angular para la web y Android Studio para aplicaciones móviles.
 
 
-
 Logros destacados:
 - Más de 7 aplicaciones publicadas en Google Play Store.
 - Más de 1.000.000 de usuarios totales.
@@ -44,7 +43,7 @@ A continuación se detallan algunas de las aplicaciones desarrolladas y publicad
 
 ## Instalación y Desarrollo
 
-Este proyecto de portfolio ha sido desarrollado con Angular 21.
+Este proyecto de portfolio ha sido desarrollado con Angular 21. StandAlone
 
 1. Instalar dependencias:
    ```bash
@@ -59,6 +58,11 @@ Este proyecto de portfolio ha sido desarrollado con Angular 21.
 3. Generar build de producción:
    ```bash
    npm run build
+   ```
+
+4. Arrancar Proyecto:
+   ```bash
+   ng serve
    ```
 
 ## Contacto
